@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./bckgrnd rmvd.png">
+    <title>Landing page</title>
+    <header>
+        
+    </header>
+    <style>
+        .head{
+            color: #FFFFFF;
+            position: absolute;
+            font-weight: 1000;
+            font-size: 40px;
+            font-family: 'Poppins';
+            font-style: normal;
+            left: 115px;
+            top: 30px;
+        }
+        .logo1{
+            position: absolute;
+           background: #F5000F;
+           width: 80px;
+           top: 15px;
+           left: 45px;
+        }
+        .note{
+            position: absolute;
+            background: #F5000F;
+            box-shadow: 43px 1px 67px rgba(0, 0, 0, 0.25), inset 0px 15px 14px rgba(0, 0, 0, 0.25);
+            height: 500px;
+            width: 750px;
+            top: -20px;
+            left: -20px;
+        }
+        #qr{ 
+            position: absolute;
+            width: 303px;
+            height: 303px;
+            background: #F5000F;
+            left: 868px;
+            top: 90px;
+        }
+        #code{
+            position: absolute;
+            width: 570px;
+            height: 480px;
+            opacity: 0.3;
+            background: #F5000F;
+            box-shadow: 43px 1px 67px rgba(0, 0, 0, 0.25), inset 0px 15px 14px rgba(0, 0, 0, 0.25);
+            left: 730px;
+        }
+        .change{
+            position: absolute;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 83px;
+            color: #F5000F;
+            text-shadow: 1px 10px 4px rgba(0, 0, 0, 0.25);
+            left:880px;
+            top: -5px;            
+        }
+        .content1{
+            position: absolute;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 83px;
+            color: #FFFFFF;
+            top: 320px;
+            left: 55px;
+        }
+        .content2{
+            position: absolute;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 83px;
+            /* or 237% */
+            color: #FFFFFF;
+            top: 355px;
+            left: 55px;
+        }
+        .content3{
+        position: absolute;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 83px;
+        color: #FFFFFF;
+        top: 390px;
+        left: 55px;
+        }
+        span{
+            color: black;
+        }
+        footer{
+             position: absolute;
+            background: #000000;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            width: 1386px;
+            height: 183px;
+            top: 480px;
+            left: -20px;
+        }
+        .LOGO{
+            width: 30px;
+            background: #000000;
+            position: absolute;
+            border-radius: 40px;
+            top: 10px;
+        }
+        .foot{
+            border: #FFFFFF 2px double;
+            position: absolute;
+            border-radius: 13px;
+            left: 1150px;
+            top: 50px;
+            padding: 20px;
+            padding-right: 160px;
+            padding-bottom: 30px ;
+        }
+        #store{           
+            position: absolute;
+            color: #FFFFFF;
+            left: 80px;
+            top: 28px;
+           
+        }
+        #app{
+            position: absolute;
+            color: #FFFFFF;
+            left: 1200px;
+        }
+        #download{
+            position: absolute;
+            color: #FFFFFF;
+            top: 08px;
+            left: 60px;
+        }
+        .image{
+            background: #FFFFFF;
+            
+        }
+        #text1{
+            position: absolute;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 83px;
+            color: #FFFFFF;
+            text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+            top: 100px;
+            left: 55px;
+        }
+        #text2{
+            position: absolute;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 83px;
+            color: #FFFFFF;
+            text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+            top: 140px;
+            left: 57px;
+        }
+        #text3{
+            position: absolute;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 83px;
+            color: #FFFFFF;
+            text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+            top: 180px;
+            left: 55px;
+        }
+        #copyrights{
+            color: #D1D5DB;
+            position: absolute;
+            padding-left: 40px;
+            top: 110px;
+         }
+        #text4{
+            position: absolute;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 83px;
+            color: #FFFFFF;
+            text-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+            top: 220px;
+            left: 55px;
+        }
+        #links{
+            position: absolute;
+            padding: 40px;
+            padding-top: 70px;
+            top: 7px;
+        }
+        .link1{
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        .link2{
+            color: #FFFFFF; 
+            text-decoration: none;
+        }
+        .link3{
+            color: #FFFFFF; 
+            text-decoration: none;
+        }
+        .link1:hover{
+            color: #F5000F;
+        }
+        .link2:hover{
+            color: #F5000F;
+        }
+        .link3:hover{
+            color: #F5000F;
+        }
+        .logo2{
+            position: absolute;
+            padding: 20px;
+            position: absolute;
+            width: 65px;
+            top: -15px;
+        }
+        #outside{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 32px;
+            color: #FFFFFF;
+            padding-left: 85px;
+            padding-top: 30px;
+            position: absolute;
+            top: -15px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./bckgrnd rmvd.png" class="logo1">
+        <div class="head">Outside</div>
+   <div class="note"> 
+    <img src="./bckgrnd rmvd.png" class="logo1">
+        <div class="head">Outside</div>
+        <div id="text"><div id="text1">Tap into</div>
+    <div id="text2">Local deals</div>
+    <div id="text3">In your</div>
+    <div id="text4">Community.</div></div>
+        <div class="content1">#say<span>no</span>tofullprice</div>
+        <div class="content2">#weoutside</div>
+        <div class="content3">#ilovelocal</div>
+    </div>
+        <img src="./qr.jpg" id="code">
+        <img src="./qr.jpg" id="qr">    
+    <footer>
+        <img src="./bckgrnd rmvd.png" class="logo2">
+        <div id="outside">Outside</div>
+        <div id="now">Download now</div>
+        <div id="links">
+            <a href="http://www.myprofile.com" class="link1">About Us</a>
+            <a href="http://www.myprofile.com" class="link2">Terms of Services</a>
+            <a href="youremail@gmail.com" class="link3">Contact Us</a>
+        </div>
+        <div id="copyrights">
+            © Outside 2022. All rights reserved.
+        </div> 
+        <div id= "app">Get the app now </div>
+        <div class="foot"> 
+        <img src="./download.png" class="LOGO">
+        <div id="download">Download on the </div>
+        <div id="store">App Store</div>
+        </div>
+    </div>
+    </footer>
+    <div class="change">Change starts local. </div>
+    </body>
+</html>
